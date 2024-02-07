@@ -9,9 +9,9 @@ function App() {
 
     const handleClick = (e) => {
         const input = e.target.value;
+        const operants = ["+", "-", "/", "*", "."]
 
-        if (
-            (input === "+" || input === "-" || input === "*" || input === "/") &&
+        if ((operants.includes(input)) &&
             (values.endsWith("+") || values.endsWith("-") || values.endsWith("*") || values.endsWith("/") || values === "" || values.endsWith("."))
         ) {
             return;
