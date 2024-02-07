@@ -73,27 +73,3 @@ export default App;
 
 
 
-
-
-
-
-
-
-
-
-// if (input === "." && values.includes(".")) {
-//     // If the input is a decimal point and it's already included in the value
-//     return;
-// } else if (
-//     (input === "+" || input === "-" || input === "*" || input === "/") &&
-//     values.endsWith(".") // Check if the last character is a decimal point
-// ) {
-//     // If the input is an operator and the last character of the value is a decimal point
-//     return;
-// } else if (
-//     (input === "+" || input === "-" || input === "*" || input === "/") &&
-//     (values.endsWith("+") || values.endsWith("-") || values.endsWith("*") || values.endsWith("/") || values === "")
-// ) {
-//     // If the input is an operator and the last character of the value is also an operator or the value is empty
-//     return;
-// }
